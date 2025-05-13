@@ -169,17 +169,17 @@ body{
 }
 
 .image-section {
-    grid-column: span 6; /* Ocupa todo el ancho del grid */
-    grid-row: span 1; /* Ocupa una fila */
+    grid-column: span 6; 
+    grid-row: span 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px; /* Espaciado alrededor de la imagen */
+    padding: 5px; 
 }
 
 .image-section img {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 8px; /* Opcional: añade bordes redondeados */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Opcional: añade sombra */
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); 
 }
