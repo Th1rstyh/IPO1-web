@@ -1,6 +1,19 @@
 .headerUL li{
     display: inline;
     text-align: center;
+    padding: 0 10px;
+}
+
+.headerUL li a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.headerUL li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .headerUL{
