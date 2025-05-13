@@ -1,3 +1,9 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
+
 .headerUL li{
     display: inline;
     text-align: center;
@@ -34,7 +40,7 @@
     height: 100%;
     width: 100%;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto repeat(5, 1fr); /* Ajusta la primera fila automáticamente */
+    grid-template-rows: auto repeat(5, 1fr); 
     gap: 16px;
     background-color: #eee;
     padding: 8px;
@@ -162,4 +168,18 @@
     flex-direction: column;
 }
 
+.image-section {
+    grid-column: span 6; /* Ocupa todo el ancho del grid */
+    grid-row: span 1; /* Ocupa una fila */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; /* Espaciado alrededor de la imagen */
+}
 
+.image-section img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Opcional: añade bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Opcional: añade sombra */
+}
