@@ -1,7 +1,5 @@
-html, body {
-    margin: 0; 
-    padding: 0; 
-    height: 100%; 
+body{
+    margin: 0;
 }
 
 .headerUL li{
@@ -41,7 +39,7 @@ html, body {
     width: 100%;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto repeat(5, 1fr); 
-    gap: 16px;
+    gap: 8px;
     background-color: #eee;
     padding: 8px;
     border-radius: 8px;
@@ -67,6 +65,7 @@ html, body {
     z-index: 1000; 
     height: 100px;
 }
+
 
 .div1 {
     font-family: 'M PLUS 2 Variable', sans-serif;
@@ -166,6 +165,7 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .image-section {
