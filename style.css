@@ -1,0 +1,116 @@
+.headerUL li{
+    display: inline;
+    text-align: center;
+}
+
+.headerUL{
+    list-style-type: none;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header1 {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(255, 182, 193, 0.5);
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(173, 255, 47, 0.5);
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(255, 255, 224, 0.5);
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3 {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(210, 180, 140, 0.5); 
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div4 {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(122, 219, 226, 0.5); 
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1 {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    grid-column: span 6;
+    grid-row: span 1;
+    background-color: rgba(144, 238, 144, 0.5); 
+    border-radius: 8px;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
