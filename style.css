@@ -155,14 +155,27 @@ html,body{
     margin: 10px;
 }
 
-.div1 > p,
-.div2 > p,
-.div3 > p,
-.div4 > p {
+.div1 > p a,
+.div2 > p a,
+.div3 > p a,
+.div4 > p a {
     font-size: 20px; 
     font-weight: bold; 
     text-align: center;
-    margin: 5; 
+    margin: 5;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black; 
+    padding-bottom: 1px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.div1 > p a:hover,
+.div2 > p a:hover,
+.div3 > p a:hover,
+.div4 > p a:hover {
+    font-size: 21px;
+    color: rgb(90, 90, 90);
 }
 
 .footer1 {
