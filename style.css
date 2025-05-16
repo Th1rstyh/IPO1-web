@@ -209,3 +209,34 @@ html,body{
     border-radius: 8px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); 
 }
+
+.sobreMiPage{
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sobreMiPage h2 {
+    font-size: 50px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+
+}
+.sobreMiPage p {
+    padding: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+
+#sobreMiIMG{
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; 
+}
