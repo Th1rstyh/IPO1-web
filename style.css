@@ -1,7 +1,7 @@
-html,body{
+html, body {
     margin: 0;
     height: 100%;
-    background-color: rgb(196, 196, 196);
+    background: linear-gradient(to bottom, black, rgb(196, 196, 196), rgb(96, 187, 223), black);
 }
 
 .headerUL li{
@@ -41,7 +41,7 @@ html,body{
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto repeat(5, 1fr); 
     gap: 8px;
-    background-color: #92e9f5;
+    background: linear-gradient(to bottom, #5fdcf0, #a6a6a6, #000000);
     padding: 8px;
     border-radius: 8px;
     box-shadow:
@@ -142,7 +142,7 @@ html,body{
 
 .div3text{
     text-align: center;
-    margin: 16px;
+    margin: 10px;
 }
 
 .div4text{
@@ -204,10 +204,11 @@ html,body{
 }
 
 .image-section img {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); 
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    border-radius: 0; 
+    box-shadow: none; 
 }
 
 .sobreMiPage{
